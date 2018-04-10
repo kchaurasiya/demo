@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 
 import aemdemo.core.interfaces.MyService;
 
-// The java class change
+// The java class change are here
 
 @Component(service=MyService.class)
 public class MyServiceImpl implements MyService {
