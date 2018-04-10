@@ -6,6 +6,8 @@ import org.slf4j.LoggerFactory;
 
 import aemdemo.core.interfaces.MyService;
 
+// The java class change
+
 @Component(service=MyService.class)
 public class MyServiceImpl implements MyService {
 	Logger logger = LoggerFactory.getLogger(MyService.class);
